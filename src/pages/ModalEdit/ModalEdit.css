@@ -1,0 +1,75 @@
+.modalEdit {
+    position: relative;
+
+}
+
+.modalEdit_wrapper{
+    position: absolute;
+    top: -300px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 82px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: calc(660px - 50px);
+    padding: 25px;
+    height: 450px;
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input{
+    padding: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 8px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: calc(100% - 34px);
+    margin-bottom: 30px;
+}
+
+.modalEdit_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.modalEdit_subItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.modalEdit_deleteSubItem{
+    position: absolute;
+    top: 28px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.editButton{
+    background: white;
+    border: none;
+    box-shadow: 0px 1px 8px -1px rgba(0, 0, 0, 0.25);
+    width: 125px;
+    height: 30px;
+    border-radius: 7px;
+    align-self: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.modalEdit_toDo{
+    overflow: auto;
+}

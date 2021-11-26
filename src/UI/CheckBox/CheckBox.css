@@ -1,0 +1,31 @@
+.wrapper-check-box {
+    width: 25px;
+    height: 25px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 15px;
+}
+
+.checked {
+    animation: showCheckBox 400ms ease-in;
+}
+
+@keyframes showCheckBox {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

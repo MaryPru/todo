@@ -1,0 +1,75 @@
+.toDo{
+    position: relative;
+    height: 60px;
+    margin-bottom: 25px;
+   padding:  5px;
+}
+
+.toDo_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 1px 8px -1px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 7px;
+
+}
+
+.toDo_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.subItems_wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 18px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    position: absolute;
+    width: 100%;
+    top: -6px;
+}
+
+.subItems_wrapper .subItem:last-child .subItem-wrapper {
+    margin-bottom: 20px;
+}
+
+.subItems_triangle {
+    position: absolute;
+    right: calc(50% - 11px);
+    cursor: pointer;
+    z-index: 25;
+    bottom: -10px;
+}
+
+.subItems {
+    position: relative;
+    z-index: 1;
+}
+
+.close{
+    overflow: hidden;
+    height: 0;
+}
+
+.open .subItems_triangle{
+    transform: rotate(180deg);
+}
+
+.toDo_actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toDo_actions img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

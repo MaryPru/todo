@@ -1,0 +1,23 @@
+.subItem{
+
+    padding: 20px 17px 0 17px;
+
+}
+
+.subItem-wrapper{
+    padding-bottom: 17px;
+    border-bottom:1px solid #B1B1B1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subItem_wrapper_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+}
